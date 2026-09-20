@@ -414,7 +414,7 @@ public class Config {
                 is.close();
 
                 MuseLogger.logDebug(string);
-                InstallCost[] costs = (InstallCost[]) gson.fromJson(string, (Class) InstallCost[].class);
+                InstallCost[] costs = gson.fromJson(string, InstallCost[].class);
                 for (InstallCost cost : costs) {
                     String moduleName = cost.moduleName;
                     Item item = GameRegistry.findItem(cost.modId, cost.itemName);

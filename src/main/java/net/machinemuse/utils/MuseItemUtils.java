@@ -238,7 +238,7 @@ public class MuseItemUtils {
     }
 
     public static List<ItemStack> modularItemsEquipped(EntityPlayer player) {
-        List<ItemStack> modulars = new ArrayList(5);
+        List<ItemStack> modulars = new ArrayList<>(5);
         ItemStack[] equipped = itemsEquipped(player);
         for (ItemStack stack : equipped) {
             if (stack != null && stack.getItem() instanceof IModularItem) {
@@ -343,7 +343,7 @@ public class MuseItemUtils {
     }
 
     public static List<IPowerModule> getPlayerInstalledModules(EntityPlayer player) {
-        List<IPowerModule> installedModules = new ArrayList();
+        List<IPowerModule> installedModules = new ArrayList<>();
         for (ItemStack stack : MuseItemUtils.modularItemsEquipped(player)) {
             NBTTagCompound itemTag = MuseItemUtils.getMuseItemTag(stack);
             for (IPowerModule module : ModuleManager.getValidModulesForItem(player, stack)) {

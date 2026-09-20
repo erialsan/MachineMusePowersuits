@@ -126,7 +126,7 @@ public class MPSItemElectricTool extends ItemTool implements IModularItemBase, I
 
     @SideOnly(Side.CLIENT)
     @Override
-    public void addInformation(ItemStack itemStack, EntityPlayer player, List currentTipList,
+    public void addInformation(ItemStack itemStack, EntityPlayer player, List<String> currentTipList,
         boolean advancedToolTips) {
         MuseCommonStrings.addInformation(itemStack, player, currentTipList, advancedToolTips);
     }

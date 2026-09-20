@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class PlayerInputMap {
 
-    protected static Map<String, PlayerInputMap> playerInputs = new HashMap();
+    protected static Map<String, PlayerInputMap> playerInputs = new HashMap<>();
 
     public static PlayerInputMap getInputMapFor(String playerName) {
         PlayerInputMap map = playerInputs.get(playerName);

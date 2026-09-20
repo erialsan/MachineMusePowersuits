@@ -107,7 +107,7 @@ public class ModuleTweakFrame extends ScrollableFrame {
         NBTTagCompound itemTag = MuseItemUtils.getMuseItemTag(stack);
         NBTTagCompound moduleTag = itemTag.getCompoundTag(module.getDataName());
 
-        propertyStrings = new HashMap();
+        propertyStrings = new HashMap<>();
         Set<String> tweaks = new HashSet<String>();
 
         Map<String, List<IPropertyModifier>> propertyModifiers = module.getPropertyModifiers();
@@ -122,7 +122,7 @@ public class ModuleTweakFrame extends ScrollableFrame {
             propertyStrings.put(property.getKey(), currValue);
         }
 
-        sliders = new LinkedList();
+        sliders = new LinkedList<>();
         int y = 0;
         for (String tweak : tweaks) {
             y += 20;

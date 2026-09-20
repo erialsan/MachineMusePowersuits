@@ -121,6 +121,7 @@ public class HoeModule extends PowerModuleBase implements IPowerModule, IRightCl
     }
 
     @Override
+    @Deprecated
     public String getDescription() {
         return "An automated tilling addon to make it easy to till large swaths of land at once.";
     }

@@ -187,6 +187,7 @@ public class TerminalHandler implements IWirelessTermHandler, IWirelessFluidTerm
         }
 
         @Optional.Method(modid = "appliedenergistics2")
+        @SuppressWarnings({ "rawtypes", "unchecked" })
         @Override
         public void readFromNBT(NBTTagCompound tagCompound) {
             NBTTagCompound tag = null;

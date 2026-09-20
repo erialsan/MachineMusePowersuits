@@ -87,7 +87,8 @@ public class ItemComponent extends Item {
     }
 
     @Override
-    public void addInformation(ItemStack stack, EntityPlayer player, List currentTipList, boolean advancedToolTips) {
+    public void addInformation(ItemStack stack, EntityPlayer player, List<String> currentTipList,
+        boolean advancedToolTips) {
         if (Config.doAdditionalInfo()) {
             String message = StatCollector.translateToLocal("tooltip.componentTooltip");
             message = MuseStringUtils
@@ -225,7 +226,7 @@ public class ItemComponent extends Item {
      * returns 16 items). For creative tab.
      */
     @Override
-    public void getSubItems(Item item, CreativeTabs tab, List listToAddTo) {
+    public void getSubItems(Item item, CreativeTabs tab, List<ItemStack> listToAddTo) {
         for (int i = 0; i < names.size(); ++i) {
             listToAddTo.add(new ItemStack(this, 1, i));
         }

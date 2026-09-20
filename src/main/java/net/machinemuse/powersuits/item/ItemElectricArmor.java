@@ -88,7 +88,7 @@ public abstract class ItemElectricArmor extends ItemArmor implements IModularIte
 
     @SideOnly(Side.CLIENT)
     @Override
-    public void addInformation(ItemStack itemStack, EntityPlayer player, List currentTipList,
+    public void addInformation(ItemStack itemStack, EntityPlayer player, List<String> currentTipList,
         boolean advancedToolTips) {
         MuseCommonStrings.addInformation(itemStack, player, currentTipList, advancedToolTips);
     }

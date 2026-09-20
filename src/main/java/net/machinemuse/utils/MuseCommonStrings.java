@@ -53,7 +53,7 @@ public abstract class MuseCommonStrings {
      * @param advancedToolTips Whether or not the player has 'advanced tooltips' turned on in
      *                         their settings.
      */
-    public static void addInformation(ItemStack stack, EntityPlayer player, List currentTipList,
+    public static void addInformation(ItemStack stack, EntityPlayer player, List<String> currentTipList,
         boolean advancedToolTips) {
         if (stack.getItem() instanceof ItemPowerFist) {
             String mode = MuseItemUtils.getStringOrNull(stack, "Mode");
@@ -107,7 +107,7 @@ public abstract class MuseCommonStrings {
 
     public static List<String> getItemInstalledModules(EntityPlayer player, ItemStack stack) {
         NBTTagCompound itemTag = MuseItemUtils.getMuseItemTag(stack);
-        List<String> modules = new LinkedList();
+        List<String> modules = new LinkedList<>();
         for (IPowerModule module : ModuleManager.getValidModulesForItem(player, stack)) {
             if (ModuleManager.tagHasModule(itemTag, module.getDataName())) {
                 modules.add(module.getDataName());

@@ -55,9 +55,10 @@ public class NBTTagAccessor extends NBTTagCompound {
     }
 
     @Nullable
-    public static Map getMap(NBTTagCompound nbt) {
+    @SuppressWarnings("unchecked")
+    public static Map<String, NBTBase> getMap(NBTTagCompound nbt) {
         try {
-            return (Map) getTagAccessor().invoke(nbt, nbt);
+            return (Map<String, NBTBase>) getTagAccessor().invoke(nbt, nbt);
         } catch (Exception e) {
             e.printStackTrace();
         }

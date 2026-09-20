@@ -26,8 +26,8 @@ public abstract class PowerModuleBase implements ILocalizeableModule {
 
     public PowerModuleBase(String name, List<IModularItem> validItems) {
         this.validItems = validItems;
-        this.defaultInstallCost = new ArrayList();
-        this.propertyModifiers = new HashMap();
+        this.defaultInstallCost = new ArrayList<>();
+        this.propertyModifiers = new HashMap<>();
         this.defaultTag = new NBTTagCompound();
         this.defaultTag.setBoolean(MuseItemUtils.ONLINE, true);
         this.isAllowed = Config.getConfig()
@@ -37,8 +37,8 @@ public abstract class PowerModuleBase implements ILocalizeableModule {
 
     public PowerModuleBase(List<IModularItem> validItems) {
         this.validItems = validItems;
-        this.defaultInstallCost = new ArrayList();
-        this.propertyModifiers = new HashMap();
+        this.defaultInstallCost = new ArrayList<>();
+        this.propertyModifiers = new HashMap<>();
         this.defaultTag = new NBTTagCompound();
         this.defaultTag.setBoolean(MuseItemUtils.ONLINE, true);
         this.isAllowed = Config.getConfig()
@@ -130,7 +130,7 @@ public abstract class PowerModuleBase implements ILocalizeableModule {
     public PowerModuleBase addPropertyModifier(String propertyName, IPropertyModifier modifier) {
         List<IPropertyModifier> modifiers = propertyModifiers.get(propertyName);
         if (modifiers == null) {
-            modifiers = new LinkedList();
+            modifiers = new LinkedList<>();
             propertyModifiers.put(propertyName, modifiers);
         }
         modifiers.add(modifier);
@@ -175,6 +175,7 @@ public abstract class PowerModuleBase implements ILocalizeableModule {
     }
 
     @Override
+    @Deprecated
     public String getDescription() {
         return StatCollector.translateToLocal("module." + getUnlocalizedName() + ".desc");
     }

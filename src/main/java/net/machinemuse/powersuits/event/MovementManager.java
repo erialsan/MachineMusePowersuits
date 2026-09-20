@@ -22,7 +22,7 @@ import cpw.mods.fml.relauncher.Side;
 
 public class MovementManager {
 
-    public static Map<String, Double> playerJumpMultipliers = new HashMap();
+    public static Map<String, Double> playerJumpMultipliers = new HashMap<>();
 
     public static double getPlayerJumpMultiplier(EntityPlayer player) {
         if (playerJumpMultipliers.containsKey(player.getCommandSenderName())) {

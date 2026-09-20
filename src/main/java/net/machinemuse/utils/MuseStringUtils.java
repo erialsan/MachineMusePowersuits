@@ -159,7 +159,7 @@ public abstract class MuseStringUtils {
      *         </pre>
      */
     public static List<String> wrapStringToLength(String str, int length) {
-        List<String> strlist = new ArrayList();
+        List<String> strlist = new ArrayList<>();
 
         int i = 0;
         while (i + length < str.length()) {

@@ -16,6 +16,7 @@ import forestry.api.apiculture.IArmorApiarist;
 @Optional.Interface(iface = "forestry.api.apiculture.IArmorApiarist", modid = "Forestry", striprefs = true)
 public interface IApiaristArmor extends IArmorApiarist {
 
+    @Deprecated
     @Optional.Method(modid = "Forestry")
     boolean protectPlayer(final EntityPlayer player, final ItemStack armor, final String cause,
         final boolean doProtect);

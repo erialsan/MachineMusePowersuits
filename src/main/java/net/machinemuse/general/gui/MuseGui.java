@@ -34,7 +34,7 @@ public class MuseGui extends GuiScreen {
 
     public MuseGui() {
         super();
-        frames = new ArrayList();
+        frames = new ArrayList<>();
     }
 
     /**

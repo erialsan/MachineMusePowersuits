@@ -36,8 +36,8 @@ public class OreScannerModule extends PowerModuleBase implements IRightClickModu
     private static String[] oreNames = { "oreCopper", "oreTin", "oreSilver", "oreLead", "oreNickel", "orePlatinum",
         "oreZinc", "oreApatite", "oreUranium" };
     private static ArrayList<ArrayList<ItemStack>> ores = new ArrayList<ArrayList<ItemStack>>();
-    private static HashMap<List, String> oreMap = new HashMap();
-    private static HashMap<String, Integer> valueMap = new HashMap();
+    private static HashMap<List, String> oreMap = new HashMap<>();
+    private static HashMap<String, Integer> valueMap = new HashMap<>();
 
     public OreScannerModule(List<IModularItem> validItems) {
         super(validItems);

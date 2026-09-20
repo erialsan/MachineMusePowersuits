@@ -163,7 +163,7 @@ public class ItemPowerFist extends MPSItemElectricTool implements IModularItem, 
     }
 
     @Override
-    public Multimap getAttributeModifiers(ItemStack stack) {
+    public Multimap<String, AttributeModifier> getAttributeModifiers(ItemStack stack) {
         Multimap<String, AttributeModifier> multimap = super.getAttributeModifiers(stack);
         multimap.put(
             SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName(),

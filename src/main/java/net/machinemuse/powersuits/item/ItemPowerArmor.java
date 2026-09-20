@@ -80,8 +80,8 @@ public abstract class ItemPowerArmor extends ItemElectricArmor implements ISpeci
     }
 
     @Override
-    public Multimap getAttributeModifiers(ItemStack stack) {
-        Multimap parent = super.getAttributeModifiers(stack);// .asInstanceOf[Multimap[String, AttributeModifier]]
+    public Multimap<String, AttributeModifier> getAttributeModifiers(ItemStack stack) {
+        Multimap<String, AttributeModifier> parent = super.getAttributeModifiers(stack);
         parent.put(
             "generic.knockbackResistance",
             new AttributeModifier(
@@ -188,6 +188,7 @@ public abstract class ItemPowerArmor extends ItemElectricArmor implements ISpeci
     }
 
     /* IApiaristArmor ----------------------------------------------------------------------------- */
+    @Deprecated
     @Optional.Method(modid = "Forestry")
     @Override
     public boolean protectPlayer(EntityPlayer player, ItemStack armor, String cause, boolean doProtect) {

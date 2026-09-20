@@ -46,13 +46,13 @@ public class MusePlayerUtils {
         // playerLook.yCoord * reachDistance, playerLook.zCoord
         // * reachDistance);
 
-        List entitiesHit = world.getEntitiesWithinAABBExcludingEntity(player, boxToScan);
+        List<Entity> entitiesHit = world.getEntitiesWithinAABBExcludingEntity(player, boxToScan);
         double closestEntity = reachDistance;
 
         if (entitiesHit == null || entitiesHit.isEmpty()) {
             return null;
         }
-        for (Entity entityHit : (Iterable<Entity>) entitiesHit) {
+        for (Entity entityHit : entitiesHit) {
             if (entityHit != null && entityHit.canBeCollidedWith() && entityHit.boundingBox != null) {
                 float border = entityHit.getCollisionBorderSize();
                 AxisAlignedBB aabb = entityHit.boundingBox.expand((double) border, (double) border, (double) border);

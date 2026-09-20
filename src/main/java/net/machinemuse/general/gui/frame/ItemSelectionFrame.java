@@ -34,7 +34,7 @@ public class ItemSelectionFrame extends ScrollableFrame {
     private void loadPoints(int num) {
         double centerx = (border.left() + border.right()) / 2;
         double centery = (border.top() + border.bottom()) / 2;
-        itemPoints = new ArrayList();
+        itemPoints = new ArrayList<>();
         List<MusePoint2D> targetPoints = GradientAndArcCalculator
             .pointsInLine(num, new MusePoint2D(centerx, border.bottom()), new MusePoint2D(centerx, border.top()));
         for (MusePoint2D point : targetPoints) {

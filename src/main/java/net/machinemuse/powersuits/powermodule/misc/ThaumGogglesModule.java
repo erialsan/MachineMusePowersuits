@@ -18,7 +18,7 @@ public class ThaumGogglesModule extends PowerModuleBase implements IToggleableMo
     public ThaumGogglesModule(List<IModularItem> validItems) {
         super(validItems);
         try {
-            Class tcItems = Class.forName("thaumcraft.api.ItemApi");
+            Class<?> tcItems = Class.forName("thaumcraft.api.ItemApi");
             Method getItem = tcItems.getDeclaredMethod("getItem", String.class, int.class);
             gogglesStack = (ItemStack) getItem.invoke(null, "itemGoggles", 0);
             addInstallCost(ItemComponent.laserHologram.copy()).addInstallCost(gogglesStack);

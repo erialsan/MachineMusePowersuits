@@ -26,7 +26,7 @@ public class KeybindManager {
     protected static KeybindManager instance;
 
     protected KeybindManager() {
-        keybindings = new HashSet();
+        keybindings = new HashSet<>();
     }
 
     public static KeybindManager getInstance() {

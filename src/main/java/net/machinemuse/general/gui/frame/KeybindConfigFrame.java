@@ -43,7 +43,7 @@ public class KeybindConfigFrame implements IGuiFrame {
     protected long takenTime;
 
     public KeybindConfigFrame(MuseGui gui, MusePoint2D ul, MusePoint2D br, EntityPlayer player) {
-        modules = new HashSet();
+        modules = new HashSet<>();
         for (ClickableKeybinding kb : KeybindManager.getKeybindings()) {
             modules.addAll(kb.getBoundModules());
         }
