@@ -1,9 +1,22 @@
+# This is the universal Text Editor Configuration
+# for all GTNewHorizons projects
+# See: https://editorconfig.org/
+
 root = true
-is_global = true
 
 [*]
-indent_style = tab
+charset = utf-8
+end_of_line = lf
 indent_size = 4
-insert_final_newline = false
+indent_style = space
+insert_final_newline = true
 trim_trailing_whitespace = true
-ij_any_keep_indents_on_empty_lines = false
+
+[*.{bat,ini}]
+end_of_line = crlf
+
+[*.{dtd,json,info,mcmeta,md,sh,svg,xml,xsd,xsl,yaml,yml}]
+indent_size = 2
+
+[*.{lang,md}]
+trim_trailing_whitespace = false

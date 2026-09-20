@@ -1,0 +1,10 @@
+// Add any additional repositories for your dependencies here.
+
+repositories {
+    // IC2 experimental is not covered by includeWellKnownRepositories
+    maven {
+        name = "ic2"
+        url = uri("https://maven.ic2.player.to/")
+        metadataSources { mavenPom(); artifact() }
+    }
+}
