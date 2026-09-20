@@ -33,7 +33,6 @@ public class HazmatModule extends PowerModuleBase {
         return "hazmat";
     }
 
-
     @Override
     public String getTextureFile() {
         return "greenstar";

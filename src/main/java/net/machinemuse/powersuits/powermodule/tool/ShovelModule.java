@@ -51,7 +51,6 @@ public class ShovelModule extends PowerModuleBase implements IBlockBreakingModul
         return "shovel";
     }
 
-
     @Override
     public String getTextureFile() {
         return "toolshovel";

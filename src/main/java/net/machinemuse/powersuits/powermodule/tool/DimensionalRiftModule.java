@@ -53,7 +53,6 @@ public class DimensionalRiftModule extends PowerModuleBase implements IRightClic
         return "dimRiftGen";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer playerClicking, World world, ItemStack item) {
         if ((playerClicking.ridingEntity == null) && (playerClicking.riddenByEntity == null)

@@ -53,7 +53,6 @@ public class PlasmaCannonModule extends PowerModuleBase implements IRightClickMo
         return "plasmaCannon";
     }
 
-
     @Override
     public String getTextureFile() {
         return "gravityweapon";

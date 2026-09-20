@@ -51,7 +51,6 @@ public class PickaxeModule extends PowerModuleBase implements IBlockBreakingModu
         return "pickaxe";
     }
 
-
     @Override
     public String getTextureFile() {
         return "toolpick";

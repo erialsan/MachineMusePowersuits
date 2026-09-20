@@ -46,7 +46,6 @@ public class WaterElectrolyzerModule extends PowerModuleBase implements IPlayerT
         return "waterElectrolyzer";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         double energy = ElectricItemUtils.getPlayerEnergy(player);

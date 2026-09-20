@@ -44,7 +44,6 @@ public class InPlaceAssemblerModule extends PowerModuleBase implements IRightCli
         return "portableCraftingTable";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {
         player.openGui(

@@ -53,7 +53,6 @@ public class KineticGeneratorModule extends PowerModuleBase implements IPlayerTi
         return "kineticGenerator";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         if (!player.isAirBorne) {

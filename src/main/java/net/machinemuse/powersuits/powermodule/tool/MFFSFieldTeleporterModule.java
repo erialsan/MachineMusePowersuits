@@ -39,7 +39,6 @@ public class MFFSFieldTeleporterModule extends PowerModuleBase {
         return "mffsFieldTeleporter";
     }
 
-
     @Override
     public String getTextureFile() {
         return "fieldteleporter";

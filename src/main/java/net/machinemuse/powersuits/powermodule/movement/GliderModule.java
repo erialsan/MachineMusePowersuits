@@ -45,7 +45,6 @@ public class GliderModule extends PowerModuleBase implements IToggleableModule, 
         return "glider";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         Vec3 playerHorzFacing = player.getLookVec();

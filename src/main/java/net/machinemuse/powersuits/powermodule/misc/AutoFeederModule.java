@@ -54,7 +54,6 @@ public class AutoFeederModule extends PowerModuleBase implements IToggleableModu
         return "autoFeeder";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         if (Config.useOldAutoFeeder()) {

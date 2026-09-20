@@ -59,7 +59,6 @@ public class ThermalGeneratorModule extends PowerModuleBase implements IPlayerTi
         return "thermalGenerator";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         double currentHeat = MuseHeatUtils.getPlayerHeat(player);

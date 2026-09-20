@@ -32,7 +32,6 @@ public class AirtightSealModule extends PowerModuleBase {
         return "airtightSeal";
     }
 
-
     @Override
     public String getTextureFile() {
         return "glasspane";

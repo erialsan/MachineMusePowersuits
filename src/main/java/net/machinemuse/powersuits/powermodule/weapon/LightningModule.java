@@ -53,7 +53,6 @@ public class LightningModule extends PowerModuleBase implements IRightClickModul
         return "lightningSummoner";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {
         try {

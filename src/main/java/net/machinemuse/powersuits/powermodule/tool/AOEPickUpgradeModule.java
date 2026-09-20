@@ -51,7 +51,6 @@ public class AOEPickUpgradeModule extends PowerModuleBase implements IBlockBreak
         return "aoePickUpgrade";
     }
 
-
     @Override
     public boolean canHarvestBlock(ItemStack itemStack, Block block, int i, EntityPlayer entityPlayer) {
         return false;

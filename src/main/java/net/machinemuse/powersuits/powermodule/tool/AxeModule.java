@@ -54,7 +54,6 @@ public class AxeModule extends PowerModuleBase implements IBlockBreakingModule, 
         return "axe";
     }
 
-
     @Override
     public String getTextureFile() {
         return "toolaxe";

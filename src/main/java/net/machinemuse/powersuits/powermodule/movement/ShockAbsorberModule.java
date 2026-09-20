@@ -49,7 +49,6 @@ public class ShockAbsorberModule extends PowerModuleBase implements IToggleableM
         return "shockAbsorber";
     }
 
-
     @Override
     public String getTextureFile() {
         return "shockabsorber";

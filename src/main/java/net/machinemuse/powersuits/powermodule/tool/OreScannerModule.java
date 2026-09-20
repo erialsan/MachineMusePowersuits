@@ -191,7 +191,6 @@ public class OreScannerModule extends PowerModuleBase implements IRightClickModu
         return "oreScanner";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer playerClicking, World world, ItemStack item) {}
 

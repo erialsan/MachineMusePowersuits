@@ -67,7 +67,6 @@ public class WaterTankModule extends PowerModuleBase implements IPlayerTickModul
         return "waterTank";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         if (MuseItemUtils.getWaterLevel(item) > ModuleManager.computeModularProperty(item, WATER_TANK_SIZE)) {

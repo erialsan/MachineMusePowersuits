@@ -68,7 +68,6 @@ public class MagnetModule extends PowerModuleBase implements IPlayerTickModule, 
         return "magnet";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack stack) {
         if (ElectricItemUtils.getPlayerEnergy(player)

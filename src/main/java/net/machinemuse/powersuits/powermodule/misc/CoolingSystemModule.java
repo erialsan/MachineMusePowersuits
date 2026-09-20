@@ -45,7 +45,6 @@ public class CoolingSystemModule extends PowerModuleBase implements IPlayerTickM
         return "coolingSystem";
     }
 
-
     @Override
     public String getTextureFile() {
         return "coolingsystem";

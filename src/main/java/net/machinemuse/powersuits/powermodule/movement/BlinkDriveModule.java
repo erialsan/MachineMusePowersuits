@@ -53,7 +53,6 @@ public class BlinkDriveModule extends PowerModuleBase implements IRightClickModu
         return "blinkDrive";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack itemStack) {
         double range = ModuleManager.computeModularProperty(itemStack, BLINK_DRIVE_RANGE);

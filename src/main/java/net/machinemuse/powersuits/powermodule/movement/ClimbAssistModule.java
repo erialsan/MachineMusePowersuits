@@ -36,7 +36,6 @@ public class ClimbAssistModule extends PowerModuleBase implements IToggleableMod
         return "climbAssist";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         player.stepHeight = 1.001F;

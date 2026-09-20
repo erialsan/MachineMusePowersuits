@@ -43,7 +43,6 @@ public class GrafterModule extends PowerModuleBase {
         return "grafter";
     }
 
-
     @Override
     public String getTextureFile() {
         return "grafter";

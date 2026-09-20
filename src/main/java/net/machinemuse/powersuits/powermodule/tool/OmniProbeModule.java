@@ -90,7 +90,6 @@ public class OmniProbeModule extends PowerModuleBase implements IRightClickModul
         return "omniProbe";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {}
 

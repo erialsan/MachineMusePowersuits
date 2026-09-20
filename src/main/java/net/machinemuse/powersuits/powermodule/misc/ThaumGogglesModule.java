@@ -43,7 +43,6 @@ public class ThaumGogglesModule extends PowerModuleBase implements IToggleableMo
         return "aurameter";
     }
 
-
     @Override
     public String getTextureFile() {
         return "bluestar";

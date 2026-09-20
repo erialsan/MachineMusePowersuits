@@ -54,7 +54,6 @@ public class PersonalShrinkingModule extends PowerModuleBase implements IRightCl
         return "cmPSD";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {
         cpmPSD.getItem()

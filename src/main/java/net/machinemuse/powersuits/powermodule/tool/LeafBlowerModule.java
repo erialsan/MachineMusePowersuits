@@ -69,7 +69,6 @@ public class LeafBlowerModule extends PowerModuleBase implements IRightClickModu
         return "leafBlower";
     }
 
-
     @Override
     public String getTextureFile() {
         return "leafblower";

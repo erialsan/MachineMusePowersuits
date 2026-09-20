@@ -48,7 +48,6 @@ public class AquaAffinityModule extends PowerModuleBase implements IBlockBreakin
         return "aquaAffinity";
     }
 
-
     @Override
     public boolean canHarvestBlock(ItemStack stack, Block block, int meta, EntityPlayer player) {
         return false;

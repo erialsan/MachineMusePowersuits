@@ -60,7 +60,6 @@ public class MobRepulsorModule extends PowerModuleBase implements IPlayerTickMod
         return "mobRepulsor";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         if (ElectricItemUtils.getPlayerEnergy(player)

@@ -42,7 +42,6 @@ public class BinocularsModule extends PowerModuleBase implements IToggleableModu
         return "binoculars";
     }
 
-
     @Override
     public String getTextureFile() {
         return "binoculars";

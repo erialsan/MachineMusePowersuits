@@ -62,7 +62,6 @@ public class AppEngWirelessFluidModule extends PowerModuleBase implements IRight
         return "appengECWirelessFluid";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {
         ECApi.instance()

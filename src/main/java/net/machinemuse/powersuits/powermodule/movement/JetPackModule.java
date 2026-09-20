@@ -52,7 +52,6 @@ public class JetPackModule extends PowerModuleBase implements IToggleableModule,
         return "jetpack";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         if (player.isInWater()) {

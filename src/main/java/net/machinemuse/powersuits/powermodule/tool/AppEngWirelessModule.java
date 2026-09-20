@@ -56,7 +56,6 @@ public class AppEngWirelessModule extends PowerModuleBase implements IRightClick
         return "appengWireless";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {
         AEApi.instance()

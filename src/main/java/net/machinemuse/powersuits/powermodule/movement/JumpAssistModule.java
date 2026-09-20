@@ -45,7 +45,6 @@ public class JumpAssistModule extends PowerModuleBase implements IToggleableModu
         return "jumpAssist";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         PlayerInputMap movementInput = PlayerInputMap.getInputMapFor(player.getCommandSenderName());

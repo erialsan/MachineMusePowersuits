@@ -62,7 +62,6 @@ public class FlintAndSteelModule extends PowerModuleBase implements IRightClickM
         return "flintAndSteel";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {}
 

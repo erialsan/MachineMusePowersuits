@@ -36,7 +36,6 @@ public class HeatSinkModule extends PowerModuleBase {
         return "heatSink";
     }
 
-
     @Override
     public String getTextureFile() {
         return "heatresistantplating2";

@@ -49,7 +49,6 @@ public class SolarGeneratorModule extends PowerModuleBase implements IPlayerTick
         return "solarGenerator";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         ItemStack helmet = player.getCurrentArmor(3);

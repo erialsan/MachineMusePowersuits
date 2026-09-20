@@ -40,7 +40,6 @@ public class CosmeticGlowModule extends PowerModuleBase {
         return "cosmeticGlow";
     }
 
-
     @Override
     public String getTextureFile() {
         return "netherstar";

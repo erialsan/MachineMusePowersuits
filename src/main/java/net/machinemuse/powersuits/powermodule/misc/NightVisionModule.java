@@ -40,7 +40,6 @@ public class NightVisionModule extends PowerModuleBase implements IPlayerTickMod
         return "nightVision";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         double totalEnergy = ElectricItemUtils.getPlayerEnergy(player);

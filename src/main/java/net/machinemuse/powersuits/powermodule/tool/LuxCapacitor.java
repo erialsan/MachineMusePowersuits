@@ -47,7 +47,6 @@ public class LuxCapacitor extends PowerModuleBase implements IRightClickModule {
         return "luxCapacitor";
     }
 
-
     @Override
     public String getTextureFile() {
         return "bluelight";

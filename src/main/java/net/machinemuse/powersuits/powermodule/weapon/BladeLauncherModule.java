@@ -44,7 +44,6 @@ public class BladeLauncherModule extends PowerModuleBase implements IRightClickM
         return "bladeLauncher";
     }
 
-
     @Override
     public String getTextureFile() {
         return "spinningblade";

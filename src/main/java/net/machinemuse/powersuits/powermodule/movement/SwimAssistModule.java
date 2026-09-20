@@ -51,7 +51,6 @@ public class SwimAssistModule extends PowerModuleBase implements IToggleableModu
         return "swimAssist";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         if (player.isInWater() && !(player.isRiding())) {

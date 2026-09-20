@@ -62,7 +62,6 @@ public class ShearsModule extends PowerModuleBase implements IBlockBreakingModul
         return "shears";
     }
 
-
     @Override
     public void onRightClick(EntityPlayer playerClicking, World world, ItemStack stack) {
         if (playerClicking.worldObj.isRemote) {

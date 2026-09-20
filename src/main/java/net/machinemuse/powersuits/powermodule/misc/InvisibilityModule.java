@@ -41,7 +41,6 @@ public class InvisibilityModule extends PowerModuleBase implements IPlayerTickMo
         return "invisibility";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         double totalEnergy = ElectricItemUtils.getPlayerEnergy(player);

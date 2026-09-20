@@ -61,7 +61,6 @@ public class ChiselModule extends PowerModuleBase implements IBlockBreakingModul
         return "chisel";
     }
 
-
     @Override
     public String getTextureFile() {
         return "toolpinch";

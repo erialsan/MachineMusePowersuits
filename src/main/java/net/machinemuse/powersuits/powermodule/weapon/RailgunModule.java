@@ -59,7 +59,6 @@ public class RailgunModule extends PowerModuleBase implements IRightClickModule,
         return "railgun";
     }
 
-
     public void drawParticleStreamTo(EntityPlayer source, World world, double x, double y, double z) {
         Vec3 direction = source.getLookVec()
             .normalize();

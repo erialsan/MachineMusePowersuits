@@ -52,7 +52,6 @@ public class JetBootsModule extends PowerModuleBase implements IToggleableModule
         return "jetBoots";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         ItemStack chest = player.getCurrentArmor(1);

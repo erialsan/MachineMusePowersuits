@@ -42,7 +42,6 @@ public class ApiaristArmorModule extends PowerModuleBase {
         return "apiaristArmor";
     }
 
-
     @Override
     public String getTextureFile() {
         return "silkWisp";

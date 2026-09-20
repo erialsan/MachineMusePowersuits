@@ -33,7 +33,6 @@ public class SonicWeaponModule extends PowerModuleBase implements IRightClickMod
         return "sonicWeapon";
     }
 
-
     @Override
     public String getTextureFile() {
         return "soundweapon";

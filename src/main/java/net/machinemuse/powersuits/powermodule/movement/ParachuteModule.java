@@ -40,7 +40,6 @@ public class ParachuteModule extends PowerModuleBase implements IToggleableModul
         return "parachute";
     }
 
-
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
         PlayerInputMap movementInput = PlayerInputMap.getInputMapFor(player.getCommandSenderName());
