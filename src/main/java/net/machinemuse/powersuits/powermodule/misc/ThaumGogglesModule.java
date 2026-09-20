@@ -43,10 +43,6 @@ public class ThaumGogglesModule extends PowerModuleBase implements IToggleableMo
         return "aurameter";
     }
 
-    @Override
-    public String getDescription() {
-        return "Connect up some Thaumic goggles to have them embedded in your helmet. (Does not give Vis usage discount)";
-    }
 
     @Override
     public String getTextureFile() {

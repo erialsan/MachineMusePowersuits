@@ -53,10 +53,6 @@ public class BlinkDriveModule extends PowerModuleBase implements IRightClickModu
         return "blinkDrive";
     }
 
-    @Override
-    public String getDescription() {
-        return "Get from point A to point C via point B, where point B is a fold in space & time.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack itemStack) {

@@ -53,10 +53,6 @@ public class LightningModule extends PowerModuleBase implements IRightClickModul
         return "lightningSummoner";
     }
 
-    @Override
-    public String getDescription() {
-        return "Allows you to summon lightning for a large energy cost.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {

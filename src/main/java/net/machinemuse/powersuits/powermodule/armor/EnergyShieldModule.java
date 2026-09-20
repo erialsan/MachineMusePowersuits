@@ -39,8 +39,4 @@ public class EnergyShieldModule extends PowerModuleBase {
         return "energyShield";
     }
 
-    @Override
-    public String getDescription() {
-        return "Energy shields are much lighter than plating, but consume energy.";
-    }
 }

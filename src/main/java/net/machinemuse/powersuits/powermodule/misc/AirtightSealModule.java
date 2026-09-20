@@ -32,10 +32,6 @@ public class AirtightSealModule extends PowerModuleBase {
         return "airtightSeal";
     }
 
-    @Override
-    public String getDescription() {
-        return "Seal the suit against hostile atmospheres for venturing to other planets.";
-    }
 
     @Override
     public String getTextureFile() {

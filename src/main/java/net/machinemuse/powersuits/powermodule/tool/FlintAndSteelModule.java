@@ -62,10 +62,6 @@ public class FlintAndSteelModule extends PowerModuleBase implements IRightClickM
         return "flintAndSteel";
     }
 
-    @Override
-    public String getDescription() {
-        return "A portable igniter that creates fire through the power of energy.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {}

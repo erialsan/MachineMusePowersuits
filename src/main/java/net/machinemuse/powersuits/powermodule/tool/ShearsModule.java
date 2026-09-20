@@ -62,10 +62,6 @@ public class ShearsModule extends PowerModuleBase implements IBlockBreakingModul
         return "shears";
     }
 
-    @Override
-    public String getDescription() {
-        return "Cuts through leaves, wool, and creepers alike.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer playerClicking, World world, ItemStack stack) {

@@ -45,10 +45,6 @@ public class CoolingSystemModule extends PowerModuleBase implements IPlayerTickM
         return "coolingSystem";
     }
 
-    @Override
-    public String getDescription() {
-        return "Cools down heat-producing modules quicker.";
-    }
 
     @Override
     public String getTextureFile() {

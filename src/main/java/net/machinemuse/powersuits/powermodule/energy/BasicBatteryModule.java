@@ -45,8 +45,4 @@ public class BasicBatteryModule extends PowerModuleBase {
         return "basicBattery";
     }
 
-    @Override
-    public String getDescription() {
-        return "Integrate a battery to allow the item to store energy.";
-    }
 }

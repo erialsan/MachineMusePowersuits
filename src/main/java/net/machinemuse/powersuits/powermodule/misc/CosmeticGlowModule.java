@@ -40,10 +40,6 @@ public class CosmeticGlowModule extends PowerModuleBase {
         return "cosmeticGlow";
     }
 
-    @Override
-    public String getDescription() {
-        return "Change the appearance of the glowy bits on your armor.";
-    }
 
     @Override
     public String getTextureFile() {

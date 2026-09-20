@@ -44,10 +44,6 @@ public class BladeLauncherModule extends PowerModuleBase implements IRightClickM
         return "bladeLauncher";
     }
 
-    @Override
-    public String getDescription() {
-        return "Launches a spinning blade of death (or shearing).";
-    }
 
     @Override
     public String getTextureFile() {

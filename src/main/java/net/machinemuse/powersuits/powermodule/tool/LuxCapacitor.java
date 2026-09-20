@@ -47,10 +47,6 @@ public class LuxCapacitor extends PowerModuleBase implements IRightClickModule {
         return "luxCapacitor";
     }
 
-    @Override
-    public String getDescription() {
-        return "Launch a virtually infinite number of attractive light sources at the wall.";
-    }
 
     @Override
     public String getTextureFile() {

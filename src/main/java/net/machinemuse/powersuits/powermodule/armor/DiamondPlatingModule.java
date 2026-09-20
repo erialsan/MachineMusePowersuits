@@ -39,8 +39,4 @@ public class DiamondPlatingModule extends PowerModuleBase {
         return "diamondPlating";
     }
 
-    @Override
-    public String getDescription() {
-        return "Advanced plating is lighter, harder, and more protective than Basic but much harder to make.";
-    }
 }

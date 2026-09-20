@@ -48,10 +48,6 @@ public class AquaAffinityModule extends PowerModuleBase implements IBlockBreakin
         return "aquaAffinity";
     }
 
-    @Override
-    public String getDescription() {
-        return "Reduces the speed penalty for using your tool underwater.";
-    }
 
     @Override
     public boolean canHarvestBlock(ItemStack stack, Block block, int meta, EntityPlayer player) {

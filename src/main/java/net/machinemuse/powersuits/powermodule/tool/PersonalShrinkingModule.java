@@ -54,10 +54,6 @@ public class PersonalShrinkingModule extends PowerModuleBase implements IRightCl
         return "cmPSD";
     }
 
-    @Override
-    public String getDescription() {
-        return "A Compact Machines Personal Shrinking Device integrated into your power tool.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {

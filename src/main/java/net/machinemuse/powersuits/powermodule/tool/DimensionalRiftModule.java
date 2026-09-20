@@ -53,10 +53,6 @@ public class DimensionalRiftModule extends PowerModuleBase implements IRightClic
         return "dimRiftGen";
     }
 
-    @Override
-    public String getDescription() {
-        return "Generate a tear in the space-time continuum that will teleport the player to its relative coordinates in the nether or overworld.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer playerClicking, World world, ItemStack item) {

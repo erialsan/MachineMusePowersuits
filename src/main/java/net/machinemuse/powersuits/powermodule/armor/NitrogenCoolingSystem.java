@@ -66,8 +66,4 @@ public class NitrogenCoolingSystem extends PowerModuleBase implements IPlayerTic
         return "nitrogenCoolingSystem";
     }
 
-    @Override
-    public String getDescription() {
-        return "Cools down heat-producing modules even faster than the standard cooling system.";
-    }
 }

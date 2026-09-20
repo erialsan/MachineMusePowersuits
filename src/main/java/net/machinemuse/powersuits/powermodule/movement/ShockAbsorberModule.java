@@ -49,10 +49,6 @@ public class ShockAbsorberModule extends PowerModuleBase implements IToggleableM
         return "shockAbsorber";
     }
 
-    @Override
-    public String getDescription() {
-        return "With some servos, springs, and padding, you should be able to negate a portion of fall damage.";
-    }
 
     @Override
     public String getTextureFile() {

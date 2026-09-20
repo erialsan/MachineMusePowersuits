@@ -43,10 +43,6 @@ public class GrafterModule extends PowerModuleBase {
         return "grafter";
     }
 
-    @Override
-    public String getDescription() {
-        return "A Forestry grafter integrated into your power tool.";
-    }
 
     @Override
     public String getTextureFile() {

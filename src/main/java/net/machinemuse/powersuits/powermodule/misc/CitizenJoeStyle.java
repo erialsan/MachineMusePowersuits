@@ -34,8 +34,4 @@ public class CitizenJoeStyle extends PowerModuleBase {
         return "citizenJoe";
     }
 
-    @Override
-    public String getDescription() {
-        return "An alternative armor texture, c/o CitizenJoe of IC2 forums.";
-    }
 }

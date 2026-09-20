@@ -22,6 +22,7 @@ import ic2.api.item.ISpecialElectricItem;
     @Optional.Interface(iface = "cofh.api.energy.IEnergyContainerItem", modid = "CoFHAPI|energy", striprefs = true),
     @Optional.Interface(iface = "ic2.api.item.IElectricItemManager", modid = "IC2", striprefs = true),
     @Optional.Interface(iface = "ic2.api.item.ISpecialElectricItem", modid = "IC2", striprefs = true),
+    @Optional.Interface(iface = "ic2.api.item.IElectricItem", modid = "IC2", striprefs = true),
     @Optional.Interface(
         iface = "appeng.api.implementations.items.IAEItemPowerStorage",
         modid = "appliedenergistics2",

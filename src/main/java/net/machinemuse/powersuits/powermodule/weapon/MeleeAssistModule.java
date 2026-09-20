@@ -47,8 +47,4 @@ public class MeleeAssistModule extends PowerModuleBase {
         return "meleeAssist";
     }
 
-    @Override
-    public String getDescription() {
-        return "A much simpler addon, makes your powertool punches hit harder.";
-    }
 }

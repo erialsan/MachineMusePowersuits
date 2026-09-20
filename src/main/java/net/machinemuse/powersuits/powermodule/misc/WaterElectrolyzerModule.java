@@ -46,10 +46,6 @@ public class WaterElectrolyzerModule extends PowerModuleBase implements IPlayerT
         return "waterElectrolyzer";
     }
 
-    @Override
-    public String getDescription() {
-        return "When you run out of air, this module will jolt the water around you, electrolyzing a small bubble to breathe from.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

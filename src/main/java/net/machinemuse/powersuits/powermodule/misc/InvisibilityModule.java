@@ -41,10 +41,6 @@ public class InvisibilityModule extends PowerModuleBase implements IPlayerTickMo
         return "invisibility";
     }
 
-    @Override
-    public String getDescription() {
-        return "Emit a hologram of your surroundings to make yourself almost imperceptible.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

@@ -36,10 +36,6 @@ public class ClimbAssistModule extends PowerModuleBase implements IToggleableMod
         return "climbAssist";
     }
 
-    @Override
-    public String getDescription() {
-        return "A pair of dedicated servos allow you to effortlessly step up 1m-high ledges.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

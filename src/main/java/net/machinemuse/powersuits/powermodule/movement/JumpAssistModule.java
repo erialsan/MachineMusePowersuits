@@ -45,10 +45,6 @@ public class JumpAssistModule extends PowerModuleBase implements IToggleableModu
         return "jumpAssist";
     }
 
-    @Override
-    public String getDescription() {
-        return "Another set of servo motors to help you jump higher.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

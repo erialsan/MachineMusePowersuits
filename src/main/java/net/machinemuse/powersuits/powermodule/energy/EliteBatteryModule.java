@@ -45,8 +45,4 @@ public class EliteBatteryModule extends PowerModuleBase {
         return "eliteBattery";
     }
 
-    @Override
-    public String getDescription() {
-        return "Integrate a the most advanced battery to store an extensive amount of energy.";
-    }
 }

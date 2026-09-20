@@ -36,10 +36,6 @@ public class HeatSinkModule extends PowerModuleBase {
         return "heatSink";
     }
 
-    @Override
-    public String getDescription() {
-        return "A thick layer of plating to soak up heat.";
-    }
 
     @Override
     public String getTextureFile() {

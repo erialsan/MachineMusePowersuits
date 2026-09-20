@@ -39,8 +39,4 @@ public class BasicPlatingModule extends PowerModuleBase {
         return "basicPlating";
     }
 
-    @Override
-    public String getDescription() {
-        return "Basic plating is heavy but protective.";
-    }
 }

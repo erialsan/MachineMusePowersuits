@@ -45,8 +45,4 @@ public class TintModule extends PowerModuleBase {
         return "tint";
     }
 
-    @Override
-    public String getDescription() {
-        return "Give your armor some coloured tinting to customize your armor's appearance.";
-    }
 }

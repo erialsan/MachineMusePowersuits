@@ -62,10 +62,6 @@ public class AppEngWirelessFluidModule extends PowerModuleBase implements IRight
         return "appengECWirelessFluid";
     }
 
-    @Override
-    public String getDescription() {
-        return "An Applied Energistics ExtraCells wireless fluid terminal integrated into your power tool.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer player, World world, ItemStack item) {

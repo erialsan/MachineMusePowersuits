@@ -53,10 +53,6 @@ public class MechanicalAssistance extends PowerModuleBase implements IPlayerTick
         return "mechAssistance";
     }
 
-    @Override
-    public String getDescription() {
-        return "Robotic assistance to reduce the effect of weight on the user";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

@@ -191,10 +191,6 @@ public class OreScannerModule extends PowerModuleBase implements IRightClickModu
         return "oreScanner";
     }
 
-    @Override
-    public String getDescription() {
-        return "A way to see how valuable the land around you is.";
-    }
 
     @Override
     public void onRightClick(EntityPlayer playerClicking, World world, ItemStack item) {}

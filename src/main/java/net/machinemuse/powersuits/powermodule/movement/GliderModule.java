@@ -45,10 +45,6 @@ public class GliderModule extends PowerModuleBase implements IToggleableModule, 
         return "glider";
     }
 
-    @Override
-    public String getDescription() {
-        return "Tack on some wings to turn downward into forward momentum. Press sneak+forward while falling to activate.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

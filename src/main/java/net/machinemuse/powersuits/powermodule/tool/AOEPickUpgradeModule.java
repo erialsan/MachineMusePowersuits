@@ -51,10 +51,6 @@ public class AOEPickUpgradeModule extends PowerModuleBase implements IBlockBreak
         return "aoePickUpgrade";
     }
 
-    @Override
-    public String getDescription() {
-        return "An updrade that will allow the pickaxe module to mine a 3x3 area of blocks";
-    }
 
     @Override
     public boolean canHarvestBlock(ItemStack itemStack, Block block, int i, EntityPlayer entityPlayer) {

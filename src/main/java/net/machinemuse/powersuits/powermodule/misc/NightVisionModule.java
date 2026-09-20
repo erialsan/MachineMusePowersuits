@@ -40,10 +40,6 @@ public class NightVisionModule extends PowerModuleBase implements IPlayerTickMod
         return "nightVision";
     }
 
-    @Override
-    public String getDescription() {
-        return "A pair of augmented vision goggles to help you see at night and underwater.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

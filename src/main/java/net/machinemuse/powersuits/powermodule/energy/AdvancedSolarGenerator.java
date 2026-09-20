@@ -59,10 +59,6 @@ public class AdvancedSolarGenerator extends PowerModuleBase implements IPlayerTi
         return "advSolarGenerator";
     }
 
-    @Override
-    public String getDescription() {
-        return "A solar generator with 3 times the power generation of the standard solar generator";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {

@@ -61,10 +61,6 @@ public class ChiselModule extends PowerModuleBase implements IBlockBreakingModul
         return "chisel";
     }
 
-    @Override
-    public String getDescription() {
-        return "This won't let you chisel blocks, but it will at least let you harvest them.";
-    }
 
     @Override
     public String getTextureFile() {

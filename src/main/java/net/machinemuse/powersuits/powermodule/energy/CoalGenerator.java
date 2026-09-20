@@ -87,8 +87,4 @@ public class CoalGenerator extends PowerModuleBase implements IPlayerTickModule,
         return "coalGenerator";
     }
 
-    @Override
-    public String getDescription() {
-        return "Generate power with solid fuels";
-    }
 }

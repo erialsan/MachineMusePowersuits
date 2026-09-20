@@ -7,7 +7,6 @@ import net.machinemuse.api.IModularItem;
 public class PowerModule extends PowerModuleBase {
 
     protected String name;
-    protected String description;
     protected String category;
     protected String textureFile;
 
@@ -24,11 +23,6 @@ public class PowerModule extends PowerModuleBase {
     }
 
     @Override
-    public String getDescription() {
-        return description;
-    }
-
-    @Override
     public String getCategory() {
         return category;
     }
@@ -36,11 +30,6 @@ public class PowerModule extends PowerModuleBase {
     public static String getUnit(String propertyName) {
         String unit = units.get(propertyName);
         return unit == null ? "" : unit;
-    }
-
-    public PowerModule setDescription(String description) {
-        this.description = description;
-        return this;
     }
 
     public PowerModule setCategory(String category) {

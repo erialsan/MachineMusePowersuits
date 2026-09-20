@@ -40,9 +40,7 @@ dependencies {
     devOnlyNonPublishable(rfg.deobf("curse.maven:cofh-lib-220333:2388747"))
 
     // Optional integrations (all @Optional / Loader.isModLoaded / ModAPIManager guarded)
-    // IC2: runtime-required in dev — FML @Optional stripping cannot save classes that Hodgepodge's
-    // EventSubscriptionHook pre-defines (NoClassDefFoundError: ic2.api.item.IElectricItem)
-    devOnlyNonPublishable("net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev")
+    compileOnly("net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev")
     compileOnly("com.github.GTNewHorizons:Applied-Energistics-2-Unofficial:rv3-beta-767-GTNH:dev")
     compileOnly("com.github.GTNewHorizons:ForestryMC:4.11.38:dev")
     compileOnly("com.github.GTNewHorizons:BuildCraft:7.1.63:dev")

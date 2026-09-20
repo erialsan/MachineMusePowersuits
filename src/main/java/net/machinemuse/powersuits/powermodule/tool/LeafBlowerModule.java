@@ -69,10 +69,6 @@ public class LeafBlowerModule extends PowerModuleBase implements IRightClickModu
         return "leafBlower";
     }
 
-    @Override
-    public String getDescription() {
-        return "Create a torrent of air to knock plants out of the ground and leaves off of trees.";
-    }
 
     @Override
     public String getTextureFile() {

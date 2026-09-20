@@ -52,10 +52,6 @@ public class JetPackModule extends PowerModuleBase implements IToggleableModule,
         return "jetpack";
     }
 
-    @Override
-    public String getDescription() {
-        return "A jetpack should allow you to jump indefinitely, or at least until you run out of power.";
-    }
 
     @Override
     public void onPlayerTickActive(EntityPlayer player, ItemStack item) {
